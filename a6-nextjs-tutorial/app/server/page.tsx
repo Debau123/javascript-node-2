@@ -1,10 +1,7 @@
 import { listUsers} from "@/app/lib/bd";
 
-
-
 export default async function Page() {
-
-  const users = await listUsers();
+    const users = await listUsers();
 
   return (
     <>
